@@ -4,7 +4,7 @@
 @version        1.0.0
 ==/UserStyle== */
 
-@-moz-document domain("https://get-atlas.xyz/dashboard/") {
+@-moz-document url-prefix("https://get-atlas.xyz/dashboard") {   
     .widget > .card-heading {
         background: rgba(0, 0, 0, 0)
     }
