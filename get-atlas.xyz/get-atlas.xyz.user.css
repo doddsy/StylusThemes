@@ -5,6 +5,10 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://get-atlas.xyz/dashboard") {   
+    input.form-control.form-control-lg.command-search {
+        background: #2b2d3399
+    }
+
     .widget > .card-heading {
         background: rgba(0, 0, 0, 0)
     }
