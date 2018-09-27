@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           Get-Atlas Modern Dashboard
+@namespace      github.com/itsdoddsy/StylusThemes
+@version        1.0.0
+==/UserStyle== */
+
+@-moz-document domain("https://get-atlas.xyz/dashboard/") {
+    .widget > .card-heading {
+        background: rgba(0, 0, 0, 0)
+    }
+
+    .widget {
+        background: #2b2d33d1
+    }
+
+    .page-header {
+        background: rgba(0, 0, 0, 0) !important
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0) !important;
+        background-image: url('https://i.imgur.com/wlS3PAN.gif') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-attachment: fixed !important;
+    }
+}
