@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Get-Atlas Modern Dashboard
 @namespace      github.com/itsdoddsy/StylusThemes
-@version        1.4.0
+@version        1.4.2
 ==/UserStyle== */
 @-moz-document url-prefix("https://get-atlas.xyz/guild") {
 
@@ -40,5 +40,14 @@
     .page-sidebar .nav-item.active .nav-link {
         color: #dadada !important;
         background: #6d6d6d7a !important;
+    }
+    
+    div.modal-dialog.modal-dialog-centered {
+        margin: 0 auto !important;
+        max-width: 50%;
+    }
+    
+    .modal-content, .modal-body {
+        max-height: 70%;
     }
 }
