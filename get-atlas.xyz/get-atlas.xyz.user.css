@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Get-Atlas Modern Dashboard
 @namespace      github.com/itsdoddsy/StylusThemes
-@version        1.4.2
+@version        1.4.4
 ==/UserStyle== */
-@-moz-document url-prefix("https://get-atlas.xyz/guild") {
+@-moz-document url-prefix("https://get-atlas.xyz/guild"), url-prefix("https://atlasbot.xyz/guild") {
 
     nav.navbar.navbar-toggleable.navbar-expand-md, input.form-control.form-control-lg.command-search {
         background: #2b2d3399 !important
