@@ -6,4 +6,4 @@ A userstyle extension is required, common ones include:
 
 Then:
 
-📦 [Install the usercss](https://github.com/itsdoddsy/StylusThemes/raw/master/get-atlas.xyz/get-atlas.xyz.user.css)
+📦 [Install the usercss](https://github.com/doddsy/StylusThemes/raw/master/atlasbot.xyz/atlasbot.xyz.user.css)
