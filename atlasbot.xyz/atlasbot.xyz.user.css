@@ -1,0 +1,218 @@
+/* ==UserStyle==
+@name           Atlasbot Custom Dashboard
+@namespace      github.com/doddsy/StylusThemes
+@version        0.0.1
+@author         doddsy
+==/UserStyle== */
+
+@-moz-document url-prefix("https://atlasbot.xyz/@me/guilds") {
+    body {
+        height: 100%;
+        min-height: 100vh;
+        /*Background image*/
+        background-image: url(https://66.media.tumblr.com/065a900f9d11bc67b628a3ea72d8f52b/tumblr_piwzvf6QzN1vf8r3co1_1280.gif) !important;
+        /*Grey overlay*/
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    /* Just to be extra */
+    .Navbar_navbarBrand__1j7dH {
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        -ms-transition: -ms-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+    }
+    .Navbar_userToggle__9pE7W:hover span {
+        -webkit-animation-name: anim-text-flow-keys;
+        animation-name: anim-text-flow-keys;
+        -webkit-animation-duration: 5s;
+        animation-duration: 5s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    @-webkit-keyframes anim-text-flow-keys {
+        0% {
+            color: #d6c05c;
+        }
+        5% {
+            color: #d6935c;
+        }
+        10% {
+            color: #5ca7d6;
+        }
+        15% {
+            color: #835cd6;
+        }
+        20% {
+            color: #5ca1d6;
+        }
+        25% {
+            color: #d6be5c;
+        }
+        30% {
+            color: #d6645c;
+        }
+        35% {
+            color: #add65c;
+        }
+        40% {
+            color: #d6645c;
+        }
+        45% {
+            color: #d6be5c;
+        }
+        50% {
+            color: #d65c8d;
+        }
+        55% {
+            color: #a5d65c;
+        }
+        60% {
+            color: #705cd6;
+        }
+        65% {
+            color: #5cd69f;
+        }
+        70% {
+            color: #5e5cd6;
+        }
+        75% {
+            color: #5cd691;
+        }
+        80% {
+            color: #5c68d6;
+        }
+        85% {
+            color: #d6935c;
+        }
+        90% {
+            color: #d6685c;
+        }
+        95% {
+            color: #d65e5c;
+        }
+        100% {
+            color: #99d65c;
+        }
+    }
+    @keyframes anim-text-flow-keys {
+        0% {
+            color: #d6c05c;
+        }
+        5% {
+            color: #d6935c;
+        }
+        10% {
+            color: #5ca7d6;
+        }
+        15% {
+            color: #835cd6;
+        }
+        20% {
+            color: #5ca1d6;
+        }
+        25% {
+            color: #d6be5c;
+        }
+        30% {
+            color: #d6645c;
+        }
+        35% {
+            color: #add65c;
+        }
+        40% {
+            color: #d6645c;
+        }
+        45% {
+            color: #d6be5c;
+        }
+        50% {
+            color: #d65c8d;
+        }
+        55% {
+            color: #a5d65c;
+        }
+        60% {
+            color: #705cd6;
+        }
+        65% {
+            color: #5cd69f;
+        }
+        70% {
+            color: #5e5cd6;
+        }
+        75% {
+            color: #5cd691;
+        }
+        80% {
+            color: #5c68d6;
+        }
+        85% {
+            color: #d6935c;
+        }
+        90% {
+            color: #d6685c;
+        }
+        95% {
+            color: #d65e5c;
+        }
+        100% {
+            color: #99d65c;
+        }
+    }
+    .Navbar_navbarBrand__1j7dH:hover {
+        transform: rotate(360deg);
+    }
+    .Navbar_navbarTransparent__1fs08 {
+        transition: 0.3s
+    }
+    .Navbar_navbarTransparent__1fs08:hover {
+        background: #000000b5;
+        transition: 0.3s
+    }
+    .Dropdown_dropdownMenu__25-I- {
+        background: #ebebeb80;
+    }
+    .Dropdown_dropdownToggle__1TYxg {
+        transition: 0.3s;
+    }
+    .Dropdown_dropdownToggle__1TYxg:hover {
+        transition: 0.3s;
+        color: white;
+    }
+    .Dropdown_dropdownItem__114Ia {
+        transition: 0.3s;
+    }
+    .Dropdown_dropdownItem__114Ia:hover {
+        background: #ebebeb;
+        transition: 0.3s
+    }
+    .Header_header__mMosI {
+        text-align: center;
+    }
+    .Header_header__mMosI h1 {
+        margin-bottom: 5px;
+    }
+    .helpers_column__1aB3W {
+        padding: 0em;
+    }
+    .GuildCard_card__RoyOy {
+        border-radius: 50px;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+    .GuildCard_card__RoyOy:hover {
+        opacity: 1
+    }
+    .meera_container__3FViA,
+    .meera_containerFluid__3gv0D {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 2.5em;
+    }
+}
